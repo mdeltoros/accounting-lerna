@@ -1,0 +1,25 @@
+{
+  "name": "wolvesTeam",
+  "version": "1.0.0",
+  "description": "Wolves Team's Application",
+  "main": "index.js",
+  "author": "Manuel F. Del Toro",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "redux": "^4.0.4",
+    "single-spa-react": "^2.10.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "watch:portal": "webpack-dev-server --port 9001",
+    "build:portal": "webpack -p --progress"
+  }
+}
